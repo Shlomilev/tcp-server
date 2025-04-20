@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: tcp-server
+    env: docker
+    plan: free
+    region: frankfurt
+    ports:
+      - port: 5000
+        protocol: tcp
+    autoDeploy: true
