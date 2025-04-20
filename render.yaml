@@ -6,6 +6,4 @@ services:
     region: frankfurt
     dockerfilePath: Dockerfile
     startCommand: python tcp_server.py
-    ports:
-      - port: 5000
     autoDeploy: true
